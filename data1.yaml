@@ -1,0 +1,5 @@
+train: /content/yolov8/train.txt  # 118287 images
+val: /content/yolov8/val.txt  # 5000 images
+test: /content/yolov8/test.txt
+nc: 2                                                      # Number of classes (change according to your dataset)
+names: ["large object","small object"]
